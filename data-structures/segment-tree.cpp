@@ -37,4 +37,4 @@ struct SegTree {
         return comb(query(a, b, x << 1, l, m), query(a, b, (x << 1) + 1, m + 1, r));
     }
     T query(int a, int b) { return query(a, b, 1, 0, sz-1); }
-}
+};
