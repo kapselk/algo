@@ -3,3 +3,4 @@ prog
 Makefile
 in
 out
+cerr
